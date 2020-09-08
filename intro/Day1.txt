@@ -1,0 +1,52 @@
+							DAY 1: BASIC INTRODUCTION ON CLOUD
+
+1) What is cloud computing ?
+
+	On demand delivery of network access to provide shared pool of configurable computing resources(networking, compute,database,storage,servers,services,etc)
+
+2) Cloud Models :
+
+	1) IAAS -
+
+		* Stands for Infrastructure as a Service 
+		* Basic Building Block for a Cloud Infrastructure.
+		* Example: AWS , Azure 
+	2) PAAS -
+
+		* Stands for Platform as a Service 
+		* Removes the need for us to manage the underlying infrastructre
+		* Provides an ondemand environment to code , test, deploy and managining our applications. 
+		* Example: Jenkins,Cloud Beas
+	3) SAAS -
+
+		* Stands for Software as a Service 
+		* Provides a product to completely run and managed by the service provider
+		* Example: Dropbox, Wordpress, Google Drive, GitHub, Drupal and Salesforce  
+
+3) Types of Cloud : 
+	
+	1) Public Cloud -
+		
+		* Anyone can use on demand and pay for the resources.
+		* All the resources will be managed by the service providers like AWS,Azure,PVC,etc
+		* Cost is less and provisioning of the resources will be managed by the user (means selection , deployment and runtime management of the hardwares 
+		  and softwares)
+	
+	2) Private Cloud -
+		
+		* Everything will be managed by the user (hardware and software both)
+		* Cost will be more as the infrastructure is on premise.
+		* Also called as onpremise data center.
+		* Security perspective this is high as it is on premise and everything is our responsibility.
+	
+	3) Community Cloud -
+	
+		* Different groups/communities come together to form their own cloud
+
+	4) Hybrid Cloud -
+	
+		* Combination of the above mentioned clouds.
+		* Example : VPC Peering between two clouds 
+		
+				
+	
