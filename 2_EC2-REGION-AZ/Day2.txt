@@ -1,0 +1,40 @@
+								DAY 2: REGIONS, AZs and EC2
+
+REGIONS :
+
+* It is actually a geographic region / seperate physical area.
+* Example: Mumbai -> ap-south-1 , N.Virginia -> us-east-1 , us-east-2 , us-east-3
+* Currently we have 24 regions (as of 10/09/2020) 
+
+Best practice to chhose a region :
+
+1) Proximity (Choose a region near to you so to have low latency)
+2) Services (Some AWS services are specific to region except R53,S3 and IAM)
+3) Cost 
+4) SLA  (Service Level Agreement also depends upon to services specific to regions)
+5) Compliance 
+
+AVAILABILITY ZONE :
+
+* These are actually the Physical Data centers which Amazon will never tell where it is located.
+* AZs are seperated from each others and they belong to a specific region.
+* Whenever any resource is created and provisioned in a Region then it is created in a Region actually in a AZ and the same thing is replicated and backed up
+  so as to adhere to SLA.
+* All the AZs are inter-connected with high bandwidth , low latency network over fully redundant , dedicated fiber providing high throughput , low latency 
+  network between AZs.
+* This is actually AWS managed service.
+* Currently we have 77 AZs (as of 10/09/2020) 
+
+
+
+EC2 :
+ 
+* EC2 stands for Elastic Compute Cloud.
+* It is a service which basically provides secure , resizable compute capacity in cloud.
+* This is not just an EC2 instance , it is actually a service that provisions a computing environment with all the flavours of configuration.
+
+Features of EC2:
+
+* We can select a preconfigured tempelate which is nothing but AMI (Amazon's Machine Image) to get up and running .
+* Configure security and access on Amazon EC2.
+* Choose instance types and run , stop , start ,etc. 
