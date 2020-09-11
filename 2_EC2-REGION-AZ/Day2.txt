@@ -38,3 +38,23 @@ Features of EC2:
 * We can select a preconfigured tempelate which is nothing but AMI (Amazon's Machine Image) to get up and running .
 * Configure security and access on Amazon EC2.
 * Choose instance types and run , stop , start ,etc. 
+
+
+EC2 PRICING :
+
+1) Free Tier :
+
+		* Includes 750 hours of free tier for linux and windows t2.micro instances each month for one year
+		* To stay with the free tier we should use only t2.micro .
+
+2)On-demand Instance :
+
+		* Pay on the running hour
+		* Increase or decrease the compute capacity depending on demands.
+		* Beneficial for application testing , web service testing or initial deployment of project for testing,etc
+		* Basically on demand required .
+
+3) Spot Instances :
+
+		*  
+
