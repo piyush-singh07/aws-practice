@@ -6,3 +6,4 @@ Implementation of various services of AWS
 3. ASG
 4. IAM
 5. S3
+6. Databases
