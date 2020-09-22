@@ -1,0 +1,12 @@
+AWS SECURITY GROUPS:
+
+1) For controlling the inbound and outbound traffic rules.
+2) By default all the outbound rules are open for an EC2 instance and it can connect freely without any restriction unless and until we give any rule for the same
+3) We specify the allow rules but not the deny rules
+4) We set the rules and policies that to be allowed but not the one to be not allowed 
+5) By default , there is no inbound rule for an EC2 means we cannot access the machine , we need to give the inbound rule for sure.
+
+CONNECTION TRACKING :
+
+Security Group uses connection tracking to track the information about the traffic to and from the instance.
+Security Group name must be given unique for a VPC.
