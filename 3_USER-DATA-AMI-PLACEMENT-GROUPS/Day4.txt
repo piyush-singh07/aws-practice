@@ -10,3 +10,7 @@ CONNECTION TRACKING :
 
 Security Group uses connection tracking to track the information about the traffic to and from the instance.
 Security Group name must be given unique for a VPC.
+
+AMI:
+
+Stands for Amazon Machine Image.
