@@ -7,3 +7,5 @@ Implementation of various services of AWS
 4. IAM
 5. S3
 6. Databases
+7. VPC
+8. CloudFront
