@@ -9,3 +9,4 @@ Implementation of various services of AWS
 6. Databases
 7. VPC
 8. CloudFront
+9. Lambda
